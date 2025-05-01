@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Slf4j
-@RequestMapping("/api2")
+@RequestMapping("/api3")
 @RequiredArgsConstructor
-public class ApiExceptionV2Controller {
+public class ApiExceptionV3Controller {
 
     @GetMapping("/members/{id}")
     public MemberDto getMember(@PathVariable("id") String id, HttpServletRequest request, HttpServletResponse response) {
